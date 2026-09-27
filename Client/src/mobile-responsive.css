@@ -1,0 +1,660 @@
+/* ============================================================
+   COMPREHENSIVE MOBILE RESPONSIVE STYLES
+   All rules scoped to max-width: 767px (mobile only)
+   Desktop design remains 100% untouched.
+   To revert: simply delete this file and remove the import from main.jsx
+   ============================================================ */
+
+@media screen and (max-width: 767px) {
+
+  /* ═══════════════════════════════════════════════════════════
+     GLOBAL MOBILE OPTIMIZATIONS
+     ═══════════════════════════════════════════════════════════ */
+
+  /* Prevent any horizontal overflow */
+  html,
+  body,
+  #root {
+    overflow-x: clip !important;
+    max-width: 100vw;
+  }
+
+  /* Ensure all sections respect mobile boundaries */
+  section {
+    overflow-x: clip;
+    max-width: 100vw;
+  }
+
+  /* Better spacing for all sections on mobile */
+  section.py-16,
+  section.py-24 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  /* Improve touch targets for all buttons and links */
+  button,
+  a.flex,
+  a.block,
+  a.inline-flex {
+    min-height: 44px;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     HEADER & NAVIGATION
+     ═══════════════════════════════════════════════════════════ */
+
+  /* Utility bar: more compact on mobile */
+  header>div:first-of-type {
+    padding-top: 0.375rem !important;
+    padding-bottom: 0.375rem !important;
+    font-size: 10px;
+  }
+
+  /* Logo sizing for mobile */
+  header img {
+    height: 2.5rem !important;
+  }
+
+  /* Mobile menu items: proper touch targets */
+  header .px-5 a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* Mobile menu button spacing */
+  header button {
+    padding: 0.5rem !important;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     HERO SECTION
+     ═══════════════════════════════════════════════════════════ */
+
+  #home {
+    padding-top: 2rem !important;
+    padding-bottom: 5rem !important;
+  }
+
+  /* Hero title - mobile optimized */
+  #home h1 {
+    font-size: 1.875rem !important;
+    /* 30px */
+    line-height: 1.2 !important;
+    margin-bottom: 1rem;
+  }
+
+  /* Hero subtitle */
+  #home .text-base.sm\:text-lg {
+    font-size: 0.875rem !important;
+    line-height: 1.4;
+  }
+
+  /* Hero description text */
+  #home .text-slate-500.leading-relaxed {
+    font-size: 0.8125rem !important;
+    line-height: 1.5;
+  }
+
+  /* Hero CTAs - stack vertically */
+  #home .flex.flex-col.sm\:flex-row {
+    gap: 0.75rem !important;
+  }
+
+  #home .flex.flex-col.sm\:flex-row>a {
+    padding: 0.875rem 1.25rem !important;
+    font-size: 0.8125rem !important;
+  }
+
+  /* Wealth projection card */
+  #home .lg\:col-span-5>div {
+    padding: 1.25rem !important;
+    margin-top: 2rem;
+  }
+
+  /* Metric boxes inside wealth card */
+  #home .grid.grid-cols-2 {
+    gap: 0.5rem !important;
+  }
+
+  #home .grid.grid-cols-2>div {
+    padding: 0.75rem !important;
+  }
+
+  /* Trust badges - better wrapping */
+  #home .pt-4.flex.flex-wrap {
+    gap: 0.5rem !important;
+    font-size: 0.6875rem !important;
+  }
+
+  /* Marquee bar - more compact */
+  #home>div:last-child {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    font-size: 0.625rem !important;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     CREDIBILITY SECTION
+     ═══════════════════════════════════════════════════════════ */
+
+  /* Stat cards - compact padding */
+  #credibility .grid>div,
+  section.py-12 .grid>div {
+    padding: 1rem !important;
+  }
+
+  #credibility h3 {
+    font-size: 1.5rem !important;
+  }
+
+  #credibility p {
+    font-size: 0.75rem !important;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     ABOUT SECTION
+     ═══════════════════════════════════════════════════════════ */
+
+  #about {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  /* Advisor photo - reasonable size on mobile */
+  #about img {
+    height: 14rem !important;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* Advisor card padding */
+  #about .bg-white.dark\:bg-slate-800 {
+    padding: 1.25rem !important;
+  }
+
+  #about h2 {
+    font-size: 1.5rem !important;
+  }
+
+  #about p {
+    font-size: 0.8125rem !important;
+    line-height: 1.5;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     SOLUTIONS SECTION
+     ═══════════════════════════════════════════════════════════ */
+
+  #solutions {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  #solutions h2 {
+    font-size: 1.5rem !important;
+  }
+
+  /* Solution cards - comfortable mobile padding */
+  #solutions .grid>div {
+    padding: 1.25rem !important;
+  }
+
+  #solutions h3 {
+    font-size: 1rem !important;
+  }
+
+  #solutions p {
+    font-size: 0.75rem !important;
+    line-height: 1.5;
+  }
+
+  /* AMC pills - compact and wrap nicely */
+  #solutions .flex.flex-wrap.gap-2 {
+    gap: 0.375rem !important;
+  }
+
+  #solutions .flex.flex-wrap.gap-2>span {
+    font-size: 0.625rem !important;
+    padding: 0.25rem 0.5rem !important;
+  }
+
+  /* Multi-AMC card - reduce padding */
+  #solutions .md\:col-span-2.lg\:col-span-3 {
+    padding: 1.5rem !important;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     KNOWLEDGE SECTION
+     ═══════════════════════════════════════════════════════════ */
+
+  #knowledge {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  #knowledge h2 {
+    font-size: 1.5rem !important;
+  }
+
+  #knowledge .grid>div {
+    margin-bottom: 0;
+    padding: 1.25rem !important;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     PROTECTION / INSURANCE SECTION
+     ═══════════════════════════════════════════════════════════ */
+
+  #protection {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  #protection h2 {
+    font-size: 1.5rem !important;
+  }
+
+  /* Insurance cards - reduce padding */
+  #protection .lg\:col-span-7 .grid>div {
+    padding: 1.25rem !important;
+  }
+
+  #protection h3 {
+    font-size: 1rem !important;
+  }
+
+  #protection p {
+    font-size: 0.75rem !important;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     ROADMAP SECTION
+     ═══════════════════════════════════════════════════════════ */
+
+  #roadmap {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  #roadmap h2 {
+    font-size: 1.5rem !important;
+  }
+
+  /* Roadmap cards - good mobile spacing */
+  #roadmap .grid>div {
+    padding: 1.25rem !important;
+  }
+
+  #roadmap h3 {
+    font-size: 0.875rem !important;
+  }
+
+  #roadmap p {
+    font-size: 0.75rem !important;
+  }
+
+  /* Roadmap CTA button - reduce top margin */
+  #roadmap .mt-16 {
+    margin-top: 2.5rem !important;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     CALCULATORS SECTION
+     ═══════════════════════════════════════════════════════════ */
+
+  #calculators {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  #calculators h2 {
+    font-size: 1.5rem !important;
+  }
+
+  /* Calculator wrapper - reduce outer padding */
+  #calculators .bg-white.dark\:bg-slate-900 {
+    padding: 0.5rem !important;
+  }
+
+  /* Calculator controls area */
+  #calculators .lg\:col-span-7 {
+    padding: 1rem !important;
+  }
+
+  /* Calculator labels and inputs */
+  #calculators label {
+    font-size: 0.8125rem !important;
+  }
+
+  #calculators input[type="number"] {
+    font-size: 16px !important;
+    /* Prevent zoom on iOS */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* Range sliders - bigger touch target */
+  #calculators input[type="range"] {
+    height: 0.75rem !important;
+  }
+
+  /* Visual output card */
+  #calculators .lg\:col-span-5 {
+    padding: 1.25rem !important;
+  }
+
+  /* Future value heading */
+  #calculators .lg\:col-span-5 h3 {
+    font-size: 1.75rem !important;
+  }
+
+  /* Donut chart - appropriate mobile size */
+  #calculators .relative.w-32.h-32,
+  #calculators .relative.w-40.h-40 {
+    width: 8rem !important;
+    height: 8rem !important;
+  }
+
+  /* Mode toggle buttons */
+  #calculators .flex.p-1 button {
+    padding: 0.625rem !important;
+    font-size: 0.75rem !important;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     HEALTH CHECK SECTION
+     ═══════════════════════════════════════════════════════════ */
+
+  #healthcheck {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  #healthcheck h2 {
+    font-size: 1.5rem !important;
+  }
+
+  /* Questions container */
+  #healthcheck .bg-slate-50\/60,
+  #healthcheck>div>div:last-child {
+    padding: 1rem !important;
+  }
+
+  /* Each question card */
+  #healthcheck form>div {
+    padding: 0.875rem !important;
+  }
+
+  /* Question text - readable size */
+  #healthcheck form span {
+    font-size: 0.8125rem !important;
+    line-height: 1.4;
+  }
+
+  /* Radio buttons - bigger touch target */
+  #healthcheck input[type="radio"] {
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+
+  #healthcheck label {
+    font-size: 0.8125rem !important;
+  }
+
+  /* Score result card */
+  #healthcheck .mt-8 {
+    padding: 1.5rem !important;
+  }
+
+  #healthcheck .text-4xl {
+    font-size: 2.5rem !important;
+  }
+
+  /* Score CTA button */
+  #healthcheck a {
+    padding: 0.875rem 1.25rem !important;
+    font-size: 0.8125rem !important;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     CONTACT SECTION
+     ═══════════════════════════════════════════════════════════ */
+
+  #contact {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  #contact h2 {
+    font-size: 1.5rem !important;
+  }
+
+  #contact h3 {
+    font-size: 1.125rem !important;
+  }
+
+  /* Contact form card - proper mobile padding */
+  #contact .bg-white.dark\:bg-slate-800 {
+    padding: 1.25rem !important;
+  }
+
+  /* Form inputs - prevent zoom */
+  #contact input,
+  #contact select,
+  #contact textarea {
+    font-size: 16px !important;
+  }
+
+  /* Form labels */
+  #contact label {
+    font-size: 0.8125rem !important;
+  }
+
+  /* Submit button */
+  #contact button[type="submit"] {
+    padding: 1rem !important;
+    font-size: 0.875rem !important;
+  }
+
+  /* Advisor card in contact */
+  #contact .lg\:col-span-5>div:first-child {
+    padding: 1.25rem !important;
+  }
+
+  /* Quick access buttons */
+  #contact .grid.grid-cols-2 a {
+    padding: 0.75rem !important;
+    font-size: 0.75rem !important;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     FOOTER
+     ═══════════════════════════════════════════════════════════ */
+
+  /* Pre-footer CTA */
+  footer .py-10,
+  footer .md\:py-16 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  footer h2 {
+    font-size: 1.25rem !important;
+  }
+
+  footer h3,
+  footer h4 {
+    font-size: 0.875rem !important;
+  }
+
+  /* Footer logo */
+  footer img {
+    height: 3.5rem !important;
+  }
+
+  /* Footer text */
+  footer p,
+  footer li,
+  footer a {
+    font-size: 0.8125rem !important;
+  }
+
+  /* Footer grid spacing */
+  footer .grid {
+    gap: 2rem !important;
+  }
+
+  /* Trust badges - center on mobile */
+  footer .flex.flex-wrap.gap-3 {
+    justify-content: center;
+  }
+
+  /* Disclaimer text - center on mobile */
+  footer .text-\[10px\] {
+    text-align: center;
+    font-size: 0.625rem !important;
+  }
+
+  /* Copyright bar */
+  footer .py-4 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  /* ═══════════════════════════════════════════════════════════
+     FLOATING ACTION BUTTONS
+     ═══════════════════════════════════════════════════════════ */
+
+  aside[aria-label="Advisor quick contacts"] {
+    bottom: max(1rem, env(safe-area-inset-bottom)) !important;
+    right: max(0.75rem, env(safe-area-inset-right)) !important;
+  }
+
+  /* Floating dock buttons - compact but touchable */
+  aside[aria-label="Advisor quick contacts"] a {
+    padding: 0.75rem !important;
+  }
+
+  /* Hide text labels on mobile for cleaner look */
+  aside[aria-label="Advisor quick contacts"] span.text-xs {
+    display: none !important;
+  }
+
+  /* Make icons slightly bigger for better visibility */
+  aside[aria-label="Advisor quick contacts"] .material-symbols-outlined {
+    font-size: 1.375rem !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   VERY SMALL SCREENS (iPhone SE, Galaxy Fold, etc.)
+   ═══════════════════════════════════════════════════════════ */
+@media screen and (max-width: 374px) {
+
+  /* Hero title - even smaller */
+  #home h1 {
+    font-size: 1.625rem !important;
+  }
+
+  /* Hero subtitle */
+  #home .text-base {
+    font-size: 0.75rem !important;
+  }
+
+  /* Hero CTAs */
+  #home .flex.flex-col.sm\:flex-row>a {
+    font-size: 0.75rem !important;
+    padding: 0.75rem 1rem !important;
+  }
+
+  /* Wealth projection card title */
+  #home .lg\:col-span-5 h2 {
+    font-size: 0.875rem !important;
+  }
+
+  /* Calculator future value */
+  #calculators .lg\:col-span-5 h3 {
+    font-size: 1.5rem !important;
+  }
+
+  /* Health check score */
+  #healthcheck .text-4xl {
+    font-size: 2rem !important;
+  }
+
+  /* Footer CTA heading */
+  footer h2 {
+    font-size: 1.125rem !important;
+  }
+
+  /* All section headings */
+  section h2 {
+    font-size: 1.375rem !important;
+  }
+}
+
+/* Layout follows the browser viewport, including Request Desktop Site.
+   The existing lg breakpoint (960px) also covers a 980px desktop viewport. */
+@media screen and (max-width: 1279px) {
+  html { overflow-x: clip; }
+  .grid > * { min-width: 0; }
+
+  #calculators .lg\:col-span-7 .space-y-4 > .flex,
+  #calculators .lg\:col-span-5 .space-y-4 > .flex {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  #calculators .lg\:col-span-5 h3 {
+    overflow-wrap: anywhere;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #mobile-navigation > div {
+    max-height: calc(100dvh - 10rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+
+  #mobile-navigation a { min-height: 44px; }
+}
+
+@media screen and (max-width: 767px) {
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  #mobile-navigation > div { max-height: calc(100dvh - 7rem); }
+
+  header > div:first-child { gap: 0.5rem; }
+  header > div:first-child > div:first-child { min-width: 0; }
+  header img { max-width: 100%; object-fit: contain; }
+  header .lg\:hidden { flex-shrink: 0; }
+
+  #home .lg\:col-span-5 > div > .flex:first-child {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  #calculators input[type="number"] { max-width: 100%; }
+  #calculators input.w-24 { padding-right: 1.75rem; }
+  #healthcheck label { min-height: 44px; }
+  #contact a[href^="mailto:"], footer a[href^="mailto:"] {
+    overflow-wrap: anywhere;
+    min-width: 0;
+  }
+}
+
+/* Keep the existing desktop navigation legible at small desktop widths. */
+@media screen and (min-width: 960px) and (max-width: 1024px) {
+  header > div:first-child { gap: 0.75rem; padding-inline: 1rem; }
+  header img[alt] { height: 2.75rem; }
+  header > div:first-child > div:first-child { flex-shrink: 0; }
+  header nav.hidden.lg\:flex { gap: 0.75rem; }
+  header nav.hidden.lg\:flex a { font-size: 0.75rem; }
+  header > div:first-child > .lg\:flex { flex-shrink: 0; gap: 0.5rem; }
+  header .lg\:flex > div a { padding-inline: 0.75rem; }
+}

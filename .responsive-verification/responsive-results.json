@@ -1,0 +1,206 @@
+[
+  {
+    "width": 320,
+    "metrics": {
+      "width": 320,
+      "scroll": 320,
+      "nav": "none",
+      "lenis": false,
+      "dock": {
+        "x": 203.828125,
+        "y": 672,
+        "width": 104.171875,
+        "height": 156,
+        "top": 672,
+        "right": 308,
+        "bottom": 828,
+        "left": 203.828125
+      }
+    },
+    "sections": [
+      {
+        "id": "solutions",
+        "overflow": [
+          "H2:Investment Solutions Portfolio",
+          "P:Institutional-grade access across premier fin",
+          "A:Request Complete Solution Brochurearrow_forwa"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 375,
+    "metrics": {
+      "width": 375,
+      "scroll": 375,
+      "nav": "none",
+      "lenis": false,
+      "dock": {
+        "x": 258.828125,
+        "y": 672,
+        "width": 104.171875,
+        "height": 156,
+        "top": 672,
+        "right": 363,
+        "bottom": 828,
+        "left": 258.828125
+      }
+    },
+    "sections": [
+      {
+        "id": "solutions",
+        "overflow": [
+          "H2:Investment Solutions Portfolio",
+          "P:Institutional-grade access across premier fin",
+          "A:Request Complete Solution Brochurearrow_forwa"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "metrics": {
+      "width": 390,
+      "scroll": 390,
+      "nav": "none",
+      "lenis": false,
+      "dock": {
+        "x": 273.828125,
+        "y": 672,
+        "width": 104.171875,
+        "height": 156,
+        "top": 672,
+        "right": 378,
+        "bottom": 828,
+        "left": 273.828125
+      }
+    },
+    "sections": [
+      {
+        "id": "solutions",
+        "overflow": [
+          "H2:Investment Solutions Portfolio",
+          "P:Institutional-grade access across premier fin",
+          "A:Request Complete Solution Brochurearrow_forwa"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 430,
+    "metrics": {
+      "width": 430,
+      "scroll": 430,
+      "nav": "none",
+      "lenis": false,
+      "dock": {
+        "x": 313.828125,
+        "y": 672,
+        "width": 104.171875,
+        "height": 156,
+        "top": 672,
+        "right": 418,
+        "bottom": 828,
+        "left": 313.828125
+      }
+    },
+    "sections": [
+      {
+        "id": "solutions",
+        "overflow": [
+          "H2:Investment Solutions Portfolio",
+          "P:Institutional-grade access across premier fin",
+          "A:Request Complete Solution Brochurearrow_forwa"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 768,
+    "metrics": {
+      "width": 768,
+      "scroll": 768,
+      "nav": "none",
+      "lenis": false,
+      "dock": {
+        "x": 638.9375,
+        "y": 662,
+        "width": 105.0625,
+        "height": 158,
+        "top": 662,
+        "right": 744,
+        "bottom": 820,
+        "left": 638.9375
+      }
+    },
+    "sections": [],
+    "errors": []
+  },
+  {
+    "width": 980,
+    "metrics": {
+      "width": 980,
+      "scroll": 980,
+      "nav": "flex",
+      "lenis": false,
+      "dock": {
+        "x": 850.9375,
+        "y": 662,
+        "width": 105.0625,
+        "height": 158,
+        "top": 662,
+        "right": 956,
+        "bottom": 820,
+        "left": 850.9375
+      }
+    },
+    "sections": [],
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "metrics": {
+      "width": 1024,
+      "scroll": 1024,
+      "nav": "flex",
+      "lenis": false,
+      "dock": {
+        "x": 894.9375,
+        "y": 662,
+        "width": 105.0625,
+        "height": 158,
+        "top": 662,
+        "right": 1000,
+        "bottom": 820,
+        "left": 894.9375
+      }
+    },
+    "sections": [],
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "metrics": {
+      "width": 1440,
+      "scroll": 1440,
+      "nav": "flex",
+      "lenis": false,
+      "dock": {
+        "x": 1310.9375,
+        "y": 662,
+        "width": 105.0625,
+        "height": 158,
+        "top": 662,
+        "right": 1416,
+        "bottom": 820,
+        "left": 1310.9375
+      }
+    },
+    "sections": [],
+    "errors": []
+  }
+]

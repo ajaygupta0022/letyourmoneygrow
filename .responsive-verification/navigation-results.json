@@ -1,0 +1,242 @@
+[
+  {
+    "id": "about",
+    "top": 73,
+    "headerBottom": 57,
+    "hash": "#about",
+    "menu": false,
+    "overflow": false,
+    "width": 390,
+    "pass": true
+  },
+  {
+    "id": "solutions",
+    "top": 73,
+    "headerBottom": 57,
+    "hash": "#solutions",
+    "menu": false,
+    "overflow": false,
+    "width": 390,
+    "pass": true
+  },
+  {
+    "id": "protection",
+    "top": 74,
+    "headerBottom": 57,
+    "hash": "#protection",
+    "menu": false,
+    "overflow": false,
+    "width": 390,
+    "pass": true
+  },
+  {
+    "id": "roadmap",
+    "top": 74,
+    "headerBottom": 57,
+    "hash": "#roadmap",
+    "menu": false,
+    "overflow": false,
+    "width": 390,
+    "pass": true
+  },
+  {
+    "id": "healthcheck",
+    "top": 73,
+    "headerBottom": 57,
+    "hash": "#healthcheck",
+    "menu": false,
+    "overflow": false,
+    "width": 390,
+    "pass": true
+  },
+  {
+    "id": "calculators",
+    "top": 73,
+    "headerBottom": 57,
+    "hash": "#calculators",
+    "menu": false,
+    "overflow": false,
+    "width": 390,
+    "pass": true
+  },
+  {
+    "id": "contact",
+    "top": 74,
+    "headerBottom": 57,
+    "hash": "#contact",
+    "menu": false,
+    "overflow": false,
+    "width": 390,
+    "pass": true
+  },
+  {
+    "id": "about",
+    "top": 73,
+    "headerBottom": 57,
+    "hash": "#about",
+    "menu": false,
+    "overflow": false,
+    "width": 390,
+    "pass": true
+  },
+  {
+    "id": "about",
+    "top": 73,
+    "headerBottom": 57,
+    "hash": "#about",
+    "menu": false,
+    "overflow": false,
+    "width": 320,
+    "pass": true
+  },
+  {
+    "id": "solutions",
+    "top": 74,
+    "headerBottom": 57,
+    "hash": "#solutions",
+    "menu": false,
+    "overflow": false,
+    "width": 320,
+    "pass": true
+  },
+  {
+    "id": "protection",
+    "top": 73,
+    "headerBottom": 57,
+    "hash": "#protection",
+    "menu": false,
+    "overflow": false,
+    "width": 320,
+    "pass": true
+  },
+  {
+    "id": "roadmap",
+    "top": 73,
+    "headerBottom": 57,
+    "hash": "#roadmap",
+    "menu": false,
+    "overflow": false,
+    "width": 320,
+    "pass": true
+  },
+  {
+    "id": "healthcheck",
+    "top": 73,
+    "headerBottom": 57,
+    "hash": "#healthcheck",
+    "menu": false,
+    "overflow": false,
+    "width": 320,
+    "pass": true
+  },
+  {
+    "id": "calculators",
+    "top": 73,
+    "headerBottom": 57,
+    "hash": "#calculators",
+    "menu": false,
+    "overflow": false,
+    "width": 320,
+    "pass": true
+  },
+  {
+    "id": "contact",
+    "top": 74,
+    "headerBottom": 57,
+    "hash": "#contact",
+    "menu": false,
+    "overflow": false,
+    "width": 320,
+    "pass": true
+  },
+  {
+    "id": "about",
+    "top": 73,
+    "headerBottom": 57,
+    "hash": "#about",
+    "menu": false,
+    "overflow": false,
+    "width": 320,
+    "pass": true
+  },
+  {
+    "id": "about",
+    "top": 113,
+    "headerBottom": 97,
+    "hash": "#about",
+    "menu": false,
+    "overflow": false,
+    "width": 844,
+    "pass": true
+  },
+  {
+    "id": "solutions",
+    "top": 114,
+    "headerBottom": 97,
+    "hash": "#solutions",
+    "menu": false,
+    "overflow": false,
+    "width": 844,
+    "pass": true
+  },
+  {
+    "id": "protection",
+    "top": 113,
+    "headerBottom": 97,
+    "hash": "#protection",
+    "menu": false,
+    "overflow": false,
+    "width": 844,
+    "pass": true
+  },
+  {
+    "id": "roadmap",
+    "top": 113,
+    "headerBottom": 97,
+    "hash": "#roadmap",
+    "menu": false,
+    "overflow": false,
+    "width": 844,
+    "pass": true
+  },
+  {
+    "id": "healthcheck",
+    "top": 114,
+    "headerBottom": 97,
+    "hash": "#healthcheck",
+    "menu": false,
+    "overflow": false,
+    "width": 844,
+    "pass": true
+  },
+  {
+    "id": "calculators",
+    "top": 114,
+    "headerBottom": 97,
+    "hash": "#calculators",
+    "menu": false,
+    "overflow": false,
+    "width": 844,
+    "pass": true
+  },
+  {
+    "id": "contact",
+    "top": 112,
+    "headerBottom": 97,
+    "hash": "#contact",
+    "menu": false,
+    "overflow": false,
+    "width": 844,
+    "pass": true
+  },
+  {
+    "id": "about",
+    "top": 113,
+    "headerBottom": 97,
+    "hash": "#about",
+    "menu": false,
+    "overflow": false,
+    "width": 844,
+    "pass": true
+  }
+]
