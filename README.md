@@ -18,7 +18,7 @@ Grow Your Money is a premium wealth management platform built to provide a dynam
 ## 🛠️ Tech Stack
 - **Frontend:** React.js, Vite, Tailwind CSS, Framer Motion
 - **Backend:** Node.js, Express.js
-- **Deployment:** Vercel / Render / AWS
+- **Deployment:** Hostinger
 
 ---
 
